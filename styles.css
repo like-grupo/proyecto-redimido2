@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+box-sizing: border-box;
+top: 0%; 
+margin: 0;
+}
+
+h1 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+header{
+
+position: fixed;
+top: 15px;
+width: 97%;
+border-radius: 30px;
+background-color: rgba(48, 146, 192, 0.66);
+height:80px;
+padding: 15;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+}
+ nav ul li{
+display: inline;
+padding: 15px;
+ 
+}
+
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 600px;
+width: 100%;
+background-color: rgba(14, 201, 201, 0.781);
+
+}
+
+.biografia{
+height: auto;
+width: 97%;
+padding: 30px;
+background-color: rgb(14, 144, 187);
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 10px;
+}
+
+.biografia img{
+width: 350px;
+padding-right: 35px;
+}
+
+.videos{ background-color: rgb(5, 194, 219);
+    border-radius: 15px; 
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding: 40px;
+width: 97%;
+height: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+  height: auto;
+}
+
+.titulo-videos{
+    padding: 30px;
+    
+}
+
+.contenedor-videos{
+    display: flex;
+width: 90%;
+justify-content: space-between;
+padding: 30px;
+}
+
+
+.imagenes{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-content: center;
+text-align: center;
+width: 100%;
+padding: auto;
+
+
+}
+
+.titulo{
+padding: 15px;
+}
+ .contenedor-imagenes{
+display: flex;
+flex-direction: row;
+
+
+ }
+
+ .contenedor-imagenes img{
+display: flex;
+margin: 20px;
+border-radius: 97px;
+
+ }
+ 
+ body{
+background-color: rgb(27, 25, 165);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+ }
+
+ .titulo-videos{
+    color: rgb(30, 106, 177);
+
+
+}
+
+ 
+footer h2{
+    color: rgb(39, 125, 182);
+}
+
+footer p{
+    color: rgb(31, 179, 238);
+}
+
+.DISCOGRAFIA{ 
+padding: 30PX;
+text-align: center;
+background-color: #1a73a7f8;
+height: 350px;
+width: 97%;
+border-radius: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.DISCOGRAFIA A{
+    padding: 15PX;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: rgb(14, 94, 160);
+    margin: top;
+    color: aliceblue;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.DISCOGRAFIA H2{
+margin: 30px;
+
+}
+
+h1{ 
+    color: #fff;
+    margin-left: 15px;
+}
+
+p{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+h2{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+}
+
+main h2{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.DISCOGRAFIA a:hover{
+    background-color: rgb(22, 93, 151);
+}
+
+
